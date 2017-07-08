@@ -30,17 +30,17 @@ Highlight On Page SEO data
 - Canonical : url, warning if multiple canonical are founded
 - Headers : headers received from the server
 
-###Robots###
+**Robots**
 - Meta robots : content if present
 - X-Robots-Tag : content if present
 - Robots.txt : content if exist
 
-###Content###
+**Content**
 - Number of words in page
 - Number of words of article tag if present
 - Hn tags tree
 
-###Assets, speed & links###
+**Assets, speed & links**
 - Assets : total, number of images, number of CSS files, number of JavaScript files
 - Speed : TTFB (Time To First Byte), DOM Content Loaded Event, Total time
 - Links : number of links, number of internal links, number of external links, number of nofollow links, number of internal nofollow links, number of external nofollow links.
