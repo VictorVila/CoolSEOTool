@@ -1,0 +1,222 @@
+{
+    "Description":
+    {
+        "message": "Gana tiempo extrayendo en 2 clics enlaces, SERPs y onPage data"
+    },
+
+    "lang" : { "message": "es"},
+
+   "menuOnPageTitle" :
+   {
+      "message": "On Page"
+   },
+   "menuOnPageMsg1" :
+   {
+      "message": "Meta, robots, enlaces, velocidad y +"
+   },
+   "menuLinkTitle" :
+   {
+      "message": "Exportar enlaces"
+   },
+   "menuLinkMsg1" :
+   {
+      "message": "Crea un .csv con los enlaces"
+   },
+   "menuSerpTitle" :
+   {
+      "message": "Exportar Serp "
+   },
+   "menuSerpMsg1" :
+   {
+      "message": "Mejor con SERPs de 100 resultados"
+   },
+   "menuSerpMsg2" :
+   {
+      "message": "(Intenta con SERPs de 100 resultados)"
+   },
+
+
+   "menuSerpVisuTitle" :
+   {
+      "message": "Visualización de la Serp "
+   },
+   "menuSerpVisuMsg1" :
+   {
+      "message": "Visualiza la estructura de las páginas extraídas de la Serp"
+   },
+
+
+   "menuBulkStatusTitle" :
+   {
+      "message": "Status Codes Bulk Checker"
+   },
+   "menuBulkStatusMsg1" :
+   {
+      "message": "Comprueba el status code de una lista de URLs"
+   },
+
+
+   "menuCrawlTitle" : { "message" : "Crawler" },
+   "menuCrawlMsg1" :  { "message" : "Explorador ligero" },
+   "crawl" :            { "message" : "Crawl" },
+   "pause" :            { "message" : "Pausa" },
+   "continue" :         { "message" : "Continuar" },
+   "refresh" :          { "message" : "Reiniciar" },
+   "copy" :             { "message" : "Copiar" },
+   "urlBase" :          { "message" : "Explorador ligero. Indica la URL de base" },
+   "filter" :           { "message" : "Filtar (3XX, /carpeta/,...)" },
+   "done" :             { "message" : "URLs de" },
+   "urlsOf" :           { "message" : "URLs de" }, 
+   "type" :             { "message" : "Tipo" },
+   "from" :             { "message" : "URL origen" },
+   "anchor" :             { "message" : "Texto" },
+   "to" :             { "message" : "URL destino" },
+
+
+
+   "menuSitemapTitle" : { "message" : "Generador de Sitemap" },
+   "menuSitemapMsg1" :  { "message" : "Sitemap a partir de 1 lista" },
+   "sitemapLabel" :     { "message" : "Pega tu lista de URLs ..." },
+   "sitemapTextArea" :  { "message" : "Pega la lista ..." },
+   "sitemapSend" :      { "message" : "Generar" },
+   "check404Label" : {"message" : "Excluir las URLs en 404 (+ largo)"},
+
+
+   "menuListTitle" : { "message" : "Trabajando con listas" },
+   "menuTextMsg1" :  { "message" : "Compara, suprime duplicados, combina, ..." },
+   "listPageTitle" : { "message" : "Trabajando con listas" },
+   "listIntro":      { "message" : "Compara dos listas (p.e. : URLs) y descubre qué ha cambiado, qué falta. Ordena, limpia, borra duplicados, ..."},
+   "listTALabel" :   { "message" : "Pega tu texto "},
+   "blank" :         { "message" : "Borra lineas vacias"},
+   "dedup" :         { "message" : "Borra duplicados"},
+   "trim" :          { "message" : "Borra espacios sobrantes"},
+   "lower" :         { "message" : "Minusculas"},
+   "upper" :         { "message" : "Mayusculas"},
+   "upperF" :        { "message" : "Upper case first"},
+   "helpTextFunc" :  { "message" : "Estas funciones se aplican tan solo a la lista seleccionada"},
+   "resultList" :   { "message" : "Resultados"},
+
+   "menuWhoisTitle" :{ "message" : "Whois"},
+   "menuWhoisMsg1" : { "message" : "Abre el registro whois"},
+
+
+
+   "characters" :
+   {
+      "message": " caracteres"
+   },
+   "items" :
+   {
+      "message": " elementos"
+   },
+   "text" :
+   {
+      "message": "texto"
+   },
+   "total":
+    {
+        "message": "total"
+    },
+
+
+   "onPageTitle":
+    {
+        "message": "On Page"
+    },
+   "contentTitle":
+    {
+        "message": "Contenido"
+    },
+   "assetsTitle":
+    {
+        "message": "Recursos, Velocidad & Enlaces"
+    },
+
+
+
+   "assets":
+    {
+        "message": "Recursos"
+    },
+   "images":
+    {
+        "message": "Imagenes"
+    },
+   "speed":
+    {
+        "message": "Velocidad"
+    },
+   "links":
+    {
+        "message": "Enlaces"
+    },
+   "compression":
+    {
+        "message": "compresión"
+    },
+   "totalLinks":
+    {
+        "message": "Total enlaces"
+    },
+   "internal":
+    {
+        "message": "Internos"
+    },
+   "external":
+    {
+        "message": "Externos"
+    },
+   "nofollow":
+    {
+        "message": "Nofollow"
+    },
+   "internalNoFollow":
+    {
+        "message": "Internos NoFollow"
+    },
+   "externalNoFollow":
+    {
+        "message": "Externos NoFollow"
+    },
+
+
+   "foundArticle":
+    {
+        "message": "Hay un &lt;article&gt; con "
+    },
+   "lines":
+    {
+        "message": " lineas"
+    },
+   "words":
+    {
+        "message": " palabras"
+    },
+   "chars":
+    {
+        "message": " caracteres"
+    },
+    "textCode":
+    {
+        "message": "texto/código"
+    },
+    "download":
+    {
+        "message": "Descargar CSV"
+    },
+
+   "errors":
+    {
+        "message": "Errores"
+    },
+
+   "errorsList":
+    {
+        "message": "Lista de errores"
+    },
+
+   "progress":
+    {
+        "message": "Terminado"
+    }
+}

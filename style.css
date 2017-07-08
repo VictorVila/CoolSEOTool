@@ -1,0 +1,374 @@
+/*
+
+azul ; #729fcf
+gris : #eeeeec
+amarelo : #fce94f
+gris 1 : #21252B
+gris 2 : #282C34
+cornflowerblue
+lavenderblush
+pink cocktail : #FF4E50
+show me your heart : #FC913A
+
+http://www.colourlovers.com/palette/937624/Dance_To_Forget
+
+*/
+
+html        { background: #333;}
+body        { font: normal .9rem/140% Lato, Arial, sans-serif;padding: 0;
+              margin : 0}
+main        { max-width: 980px; margin: 10px auto; padding: 2%; }
+header      { text-align: center; }
+main h1     { display: inline-block; font-size:2.5rem; color: #fce94f;
+              font-family: Oswald; font-weight: 400;}
+main #logo  { display: inline-block; font-size:2.5rem; margin-right: 20px;
+                color: #fce94f}
+label, p, li{ font-size: 1.2rem; color: #fff; }
+select,
+input       { margin: 0 20px 0 10px; padding: 3px; font-size: 1.0rem;
+              background: #fff; border: none; border-radius: 3px;}
+#errors     { background: #ffa; padding: 20px;  }
+#errors  li { color:#333;  }
+
+/* ----------
+|   Menu
+-------------*/
+
+#menu           { width: 300px; display: block; padding:0 ;margin:0;}
+#menu li        { display: block; padding: 1rem 1rem 1rem; transition: all .3s ease-in;
+                    margin: 0 ; cursor: pointer; font-size: 1.2rem;
+                    transition: all 0.3s ease; border-top:1px solid #444;border-bottom:1px solid #222;  }
+#menu li:hover  { background: #555; transition: all 0.3s ease;
+                  transition: all .3s ease-in; }
+#menu
+.sublinks:hover { background: #333; cursor:normal; }
+#menu span      { color: #fff; display: block; font-size: .8rem; }
+#menu #onOff
+span            { display: inline-block; width: 30px; text-align: center;
+                  border: 1px solid #666; font-size: .7rem; margin: 0 1%; padding: 5px 5px; text-transform: uppercase;}
+#onOff
+span:hover      { background: #444; cursor: pointer;  }
+#menu #onOff    { background: #222;   }
+
+#menu
+#onOff:hover    { background: #222; cursor: default;}
+#menu
+#onOff.off:hover{ background: red; }
+.hint           { color: #ffc; }
+
+#onPage i       { background: burlywood; }
+#linksExport i  { background: bisque; }
+#serpExport i   { background: #F9D423; }
+#sitemapMenu i  { background: #D59781; }
+#listMenu i     { background: #52de6c; }
+#crawler > i    { background: #729fcf; }
+#domain > i     { background: #E59544; }
+
+#onPage i, #linksExport i, #serpExport i, #sitemapMenu i,
+#listMenu i, #domain > i, #crawler > i {  color: #333; border-radius: 20px; padding: 10px;  }
+
+#onPage, #linksExport, #serpExport, #sitemapMenu, #listMenu, #domain, #crawler
+{ color: #fff; }
+
+#menuOnPageTitle,
+#menuLinkTitle,
+#menuSerpTitle,
+#menuSitemapTitle,
+#menuListTitle,
+#menuWhoisTitle,
+#menuCrawlTitle { font-family: Lato;  }
+
+#menuOnOffTitle {     margin-right: 10px;}
+#menuOnOffButtons {  }
+#menuOnOffButtons span { }
+
+/* sublinks */
+#menuWhoisTitle { display: block; }
+#domain span    { display: inline; margin-right: 10px;color: #E59544; }
+#domain span:hover,
+#domain span i:hover {color: #aea9fd}
+
+.menuIcon       { display: block; float: left; margin-right : 10px;
+                    font-size: 3rem; }
+
+h1, h2, h3  { font-size: 2rem; color: #ddd; }
+h2          { font-size: 1.8rem; color: #ddd; }
+h3          { font-size: 1.6rem; color: #ddd; }
+a { color: #fce94f}
+i { font-style:normal; color:#729fcf }
+
+.injectRed  { color: red;}
+.injectBlue { color: #729fcf;}
+.center     { text-align: center;}
+.yellow { color: #fce94f}
+.dNone      { display: none; }
+.dBlock     { display: block; }
+.white      { color: white; }
+.mitgard    { width: 45%; padding: 2%; background: #393939;
+              border: 1px solid #555;}
+.mitgard h2 { padding: 0; color: #ccc;  }
+.fleft      { float: left; }
+.fright     { float: right; }
+.bold       { font-weight : bold; }
+.active     { background: red; }
+
+
+
+/* ------------
+|   Sitemap
+--------------*/
+#sitemap #logo   { color: #D59781; }
+#sitemapTitle    { color: #fff; }
+#urlListLabel    { color: #ddd; display: block; }
+#urlListTextArea { width: 100%; height: 350px; margin: 10px auto;
+                    display: block; }
+#urlListSend     { display: block; padding: .5rem; background: #fce94f;
+                    border: none;
+                   font-size: 1.2rem; color: #333; border-radius: 3px;}
+#sitemapInfo a   { color : #ccc; margin: 20px 0;}
+#sitemap input   { width : 25px ; text-align:center; }
+#output span     { margin: 0 20px 0 0 }
+#output b        { font-size:1.2rem; }
+#outputURls i    { color: lightgreen; }
+#outputErrors i  { color: yell9ow; }
+#outputProgress i{ }
+
+
+
+/* ------------
+|   Text
+---------------*/
+#text #logo     { color: #729fcf ; }
+#unTercio       { float: right; width: 30%; }
+#dousTercios    { float: left; width: 64%; }
+#listTA         { width: 100%; height: 300px;  }
+.functions      { padding:1%; margin:0 0 10px; text-align: center; }
+.functions li   { list-style: none; background: cornflowerblue; padding: 5px 7px;
+                  border-radius: 3px; margin: 5px 2px; font-size: 1rem; text-shadow: 0 0 1px #5b85d2;
+                  cursor: pointer; display: inline-block; }
+.functions li:hover { opacity:.95 ; background: #5b85d2; }
+.functions i { color: #fce94f}
+
+#tresTercios       {}
+#tresTercios div { width: 32%;}
+#tercioDous        { margin: 0 2%;}
+#tresTercios label { display: block; padding-left: 10px}
+#tresTercios label b { font-weight: normal; float:right; }
+#tresTercios textarea { width: 100%; height: 300px;}
+
+
+
+
+/* ------------
+|   List 52de6c
+---------------*/
+#list               { width: 96%; max-width: 1600px; padding: 2% }
+#list p             { text-align: center; }
+#listPageTitle,
+#list #logo         { color: #52de6c; }
+#list textarea      { border: 6px solid #333; }
+#list textarea:focus{ border: 6px solid #52de6c; }
+.groups li          { padding: 10px 10px 10px 55px; }
+#conxuntos li       { color: #333}
+#union              { background: #52de6c url("../img/union.png") 8px 50% no-repeat;}
+#intersection       { background: #52de6c url("../img/intersection.png") 8px 50% no-repeat;}
+#difference         { background: #52de6c url("../img/difference.png") 8px 50% no-repeat;}
+#list #help         { margin-top: 40px; }
+
+
+#whoisContent       { display: none; }
+#menuWhoisLoading   { display: none; }
+
+
+
+
+
+/* ------------
+|   Crawler
+--------------*/
+#crawlerHtml,
+#crawlerBody        { background:#fff; }
+#crawlerPage        { width: 1600px; margin-left:310px; padding: 0 2% 2%;
+                      text-align: center; background:#fff; margin-top: 0;}
+/*#headerFlex         { margin: 20px auto 30px; display: flex; flex-direction: row;
+                      flex-wrap: nowrap; justify-content: space-between; }*/
+
+/* Expand */
+#toggles            { margin: 0 auto 20px 0; }
+#toggles i          { color: #999; cursor: pointer; }
+#toggles i:hover    { color: #fff; }
+#expandToggle       { padding: 2px; display: inline-block; margin: 0 10px 0 0;}
+
+
+/* Menu */
+#crawlerMenu        { position: fixed; height: 100%; top: 0; left: 0;
+                      z-index: 2; box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+                        0 1px 5px 0 rgba(0,0,0,0.12),
+                        0 3px 1px -2px rgba(0,0,0,0.2);
+                      padding: 10px; background: #333; width: 300px; }
+.min#crawlerMenu    { width: 80px; }
+#crawlerTitle,
+#crawlerLogo        { color: #fff;
+                      font-size: 1.5rem; text-align: center;
+                      position: relative; height: 50px; }
+#crawlerTitle
+span                {  text-align: center; /*position: absolute;
+                      top: 15px; right: 44px; */text-transform: uppercase;
+                      font-size: .6rem;}
+.min #crawlerTitle
+span                { display: none; }
+#crawlerTitle       { font-size: 1.2rem;}
+
+/* Botons */
+#crawlControls
+button,
+.dt-button,
+#loadCrawlBtn,
+.loadBtn,
+.removeBtn       { background: #fce94f; color: #333; margin: 0 10px 10px 0;
+                      overflow: hidden; transition: .3s ease-out;
+                      vertical-align: middle; letter-spacing: .5px;
+                      cursor: pointer; outline: 0;border: none;
+                      border-radius: 2px;height: 36px; line-height: 36px;
+                      padding: 0 1rem; text-transform: uppercase;
+                      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+                        0 1px 5px 0 rgba(0,0,0,0.12),
+                        0 3px 1px -2px rgba(0,0,0,0.2);}
+.min #crawlControls
+button              { margin: 0 auto 10px; padding: 0; width: 100%}
+.min #crawlControls
+button i            { margin: 0 auto; }
+.min #crawlControls
+button span         { display: none; }
+#crawlControls i    { margin-right: 7px; color: #333; }
+
+#crawlControls
+button:hover        { background: #e6d545; }
+/*.headerFlexSection  { display: flex; flex-direction: column; flex-wrap: nowrap;
+                      justify-content: center; }
+.flexAlignLeft      { display: flex; justify-content: flex-start; align-items: baseline; }  */
+#crawlControls      { display: flex; flex-direction: row; justify-content: center;
+                      align-items: center; flex-wrap: wrap; margin: 5px auto 30px; }
+
+
+/* form */
+.label              { color: #ddd; display: block; text-align: center;
+                      font-size: .7rem; text-transform: uppercase;
+                      letter-spacing: .5px;}
+.min #baseURLLabel  { display: none; }
+#baseURLInput       { width: 100%; padding: .2rem .4rem;
+                      font-size: 1.0rem; background-color: #fff;
+                      border: none; border-bottom: 1px solid #9e9e9e;
+                      border-radius: 0; outline: none; height: 2rem;
+                      margin: 0 0 20px 0; box-shadow: none;
+                      box-sizing: content-box; transition: all 0.3s;
+                    }
+#crawlerInfo a      { color : #ccc; margin: 20px 0;}
+#changeTablesLabel  { }
+select              { background-color: #eee; margin: 5px auto;
+                      padding: 5px 0; border: 1px solid #222; color: #333;
+                      border-radius: 2px; height: 2.5rem; font-size: .9rem;}
+#crawlerMenu select { width: 100%;  }
+option              { text-align: center; font-size: .7rem;
+                      text-transform: uppercase;}
+
+/* table crawler */
+
+
+#crawlerTableWrapper{ width: 100%; overflow: scroll-x; }
+#crawlerBody table  { width: 100%; background: #fff; border-color:#eee;
+                      border-radius: 3px;
+                      color: #333; table-layout: fixed;}
+#outCrawl_info,
+#outLinks_info      { color: #ddd; margin: 20px; }
+#outCrawl_filter label,
+#outLinks_filter label { font-size: 1rem; }
+
+#crawlerBody  td    { padding: 5px; display: table-cell; }
+.fixedHeader-floating thead,
+#crawlerBody  thead { display: table-header-group; vertical-align: middle; curosr: pointer; }
+#crawlerBody  thead tr  { display: table-row;  position: relative; }
+.fixedHeader-floating th,
+#crawlerBody  thead th  { /*width: 200px;*/ background: #333; color: #eee; padding: 10px;
+                      font-size: 1.1rem;}
+.table-striped>tbody>tr.odd{background-color:#eeeeec}
+#crawlerBody tbody  { display: table-row-group; height: 262px; overflow: auto;
+                      width: 100%; }
+#crawlerBody tbody tr{ display: table-row; vertical-align: inherit; border-color: inherit; }
+#crawlerBody tbody  td     {  /*width: 200px;*/ word-wrap: break-word;
+                      overflow-wrap: break-word; }
+
+#details     { display: none; overflow: scroll; height: 240px; }
+/* fixed header Datatables */
+table.fixedHeader-floating{position:fixed !important; }
+table.fixedHeader-floating.no-footer{border-bottom-width:0}table.fixedHeader-locked{position:absolute !important;background-color:white}@media print{table.fixedHeader-floating{display:none}}
+
+.inLinks,
+.outLinks     { vertical-align: middle; letter-spacing: .5px;
+                cursor: pointer;  outline: 0; border: none;
+                border-radius: 2px;  background: #1E88E6;
+                text-transform: uppercase; font-size: 0.7rem;
+                padding: .2rem .4rem; margin: 0 .1rem; color: #fafafa;}
+/* align */
+tr td:first-child,
+tr td:nth-child(5),
+tr td:nth-child(6),
+tr td:nth-child(7),
+tr td:nth-child(8)
+ { text-align: left}
+
+/* stats crawl */
+/*#crawlStats,*/
+#linkStats,
+#outCrawl_filter,
+#outLinks_filter,
+.dt-buttons         { position: fixed; bottom: 0; font-size: 1rem;
+                      background: #333; color: #fff; padding: 5px; }
+/*#crawlStats,*/
+#crawlStats          {     margin: 0px auto 40px;}
+#crawlStats,
+#crawlStats b,
+#linkStats b       { font-weight: normal; font-size: 1.4rem; text-align: center; color: #fff; }
+
+#outCrawl_filter,
+#outLinks_filter    { width: 100%; /*text-align: center; left: 0;*/ padding: 6px 0 6px 210px; text-align: left;
+                      border-top: 1px solid #44688e;}
+.dt-buttons         { z-index: 1; left: 350px; padding: 0; }
+.dt-button,
+#outCrawl_paginate li
+                    { text-decoration: none; border: 1px solid #777;
+                      color: #fff; height: 20px; background: #666;
+                      display: inline-block; padding: 2px 8px; margin: 0 10px 3px 0; font-size:.7rem; line-height: 20px; }
+.dt-button:hover    { background: #999; }
+.loadBtn            { background: #2196F4; color: #fff; cursor: pointer; }
+.removeBtn          { background: #FF4E50; color: #fff; cursor: pointer; }
+
+#outCrawl_paginate li {list-style : none; }
+#outCrawl_paginate a  { color: #fff; text-transform: uppercase; text-decoration: none; }
+
+#loadCrawlBtn       { background: #2196F4; margin: 10px auto; display: block; color: #fff}
+#loadCrawlBtn i     { color: #fff}
+#loadCrawlBtn:hover { background: #00bcd4;}
+
+
+/* ------------
+|  Utis
+---------------*/
+
+.clearfix:before,
+.clearfix:after     { content: "\0020"; display: block; height: 0; visibility: hidden; }
+.clearfix:after     { clear: both; }
+.clearfix           { zoom: 1; }
+.enabled            { color: #333; }
+.disabled           { color: #999; }
+.alpha              { background: #d64343; border-radius: 10px;color: #fff; font-size:.9rem; padding: 0 4px;}
+.min .alpha         { font-size:.7rem; padding: 0 2px; }
+#overlay,
+#loadCrawlOverlay   { position: fixed; top: 0; left: 0; z-index: 10000;
+                      background: rgba(0, 0, 0, .7); display: none;
+                      cursor: pointer; height:100%; overflow: scroll; }
+#loadCrawlOverlayData,
+#overlayData        { width: 84%; margin: 20px 6% auto; padding: 2%; background: #fff;
+cursor: default;}
+#overlayData  li      { color: #333; }
+#loadCrawlBtn {}

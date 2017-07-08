@@ -1,0 +1,179 @@
+/*
+
+#A8E9D5
+#45C2C8
+#3C80A5
+#47466E
+
+
+*/
+
+
+html {font-size: 100%: }
+#onPageBFG a,
+#onPageBFG a:link,
+#onPageBFG a:visited,
+#onPageBFG a:hover,
+#onPageBFG a:active,
+#onPageBFG p,
+#onPageBFG li,
+#onPageBFG dt,
+#onPageBFG dd,
+#onPageBFG dd p,
+#onPageBFG dd li,
+#onPageBFG dd a,
+#onPageBFG i,
+#onPageBFG b { font: 400 .9rem "Open sans", "Roboto", arial, sans-serif; text-transform: none; text-decoration: none; text-align: left;letter-spacing:0;  }
+
+
+#onPageBFG   { position: fixed; top: 0 ; right: 0; width: 300px;
+               background: rgba(36,36,36,0.95); height: 100%;background: #333;
+               /*background: -webkit-linear-gradient(top, #ffffff 1%,#eaf4fd 100%); */
+               z-index: 10000000; color: #B9FFFF; padding: 0rem;
+               font-size: .9rem; overflow: scroll;
+                box-shadow: -5px 0px 10px 0px #333;}
+
+#onPageBFG a,
+#onPageBFG a:link { color: #fff; }
+#onPageBFG dl { padding: .2rem 1rem 2rem; box-shadow: inset 0px 0px 85px rgba(0,0,0,.5);}
+#onPageBFG dt { color: #93C5F9; background: transparent; margin: .5rem 0 0;
+                text-transform: uppercase;padding: .7rem 0 .2rem;
+                font: normal normal .8rem/150% "open sans", Arial, sans-serif;
+                width:100%; float: none; }
+#onPageBFG dt i { color: #EF9564; font-size: .8rem; padding-left: 10px; font-style: normal; text-transform: none; }
+#onPageBFG dt b { font-size: .8rem; color: #222;padding: 0 .2rem;
+                  background: #555; border-radius:10px; }
+#onPageBFG dd p { margin: 0; }
+#onPageBFG dd li{ list-style: none; }
+#onPageBFG dd span { color: khaki; }
+#onPageBFG dd { font-size: .9rem; margin: 0 ; background: transparent; }
+
+
+
+/* Hn
+--------*/
+.opBFGh1 b { background: red;    margin: 0 .1rem 0 0;    color: #fff; }
+.opBFGh2 b { background: orange; margin: 0 .1rem 0 15px; color: #222; }
+.opBFGh3 b { background: #729fcf;margin: 0 .1rem 0 30px; color: #222; }
+.opBFGh4 b { background: #bbb;   margin: 0 .1rem 0 45px; color: #222; }
+.opBFGh5 b { background: #ddd;   margin: 0 .1rem 0 60px; color: #222; }
+.opBFGh6 b { background: #eee;   margin: 0 .1rem 0 75px; color: #222; }
+
+i { font-style:normal; color:#729fcf }
+
+.injectRed {color: red;}
+.injectBlue {color: #729fcf;}
+
+/* Amosa
+----------*/
+#onPageBFG .dBlock {display: block;}
+#onPageBFG .dNone {display: none;}
+
+
+/* Accordion
+-------------- */
+#onPageBFG .accordion { /*box-shadow: 5px 0px 5px 6px #000;*/ }
+#onPageBFG q { cursor: pointer; font: normal 1rem "Open sans", "Roboto", arial, sans-serif; text-align:left; border: none; padding: 2rem 1rem; margin: 0; display:block; }
+
+#onPageBFG q:before {content: none; }
+#onPageBFG q:after {content: none; }
+
+.aberto q      {  }
+/*.pechado ul, .pechado ol, .pechado div,
+.pechado p,*/ .pechado dl { display: none; transition: all .3s ease-in;  }
+/*.aberto ul, .aberto ol, .aberto div,
+.aberto ol, */.aberto dl { display: block; transition: all .3s ease-in; background: #222;}
+.accordion ul, .accordion ol, .accordion ol, .accordion div, .accordion dl
+{ margin: -.2rem 0;  }
+
+#onPageBFG dl ul {padding-left:0; border-left: 1px solid #111; }
+#onPageBFG dl li {padding-left:.4rem; border-left: 1px solid #444; }
+#onPageBFG #contAcc ul { border-left: none; }
+#onPageBFG #contAcc li { border-left: none; }
+
+#onPageBFG #metaAcc    { background: #333;  }
+#onPageBFG #robotsAcc  { background: #333;  }
+#onPageBFG #ressAcc    { background: #333;  }
+#onPageBFG #contAcc    { background: #333;  }
+
+#onPageBFG #metaAcc q  { color: #aea9fd; border-left: 5px solid #aea9fd; }
+#onPageBFG #robotsAcc q{ color: bisque; border-left: 5px solid bisque; }
+#onPageBFG #ressAcc q  { color: burlywood; border-left: 5px solid burlywood;  }
+#onPageBFG #contAcc q  { color: #ffc65b; border-left: 5px solid #ffc65b; }
+
+#onPageBFG .aberto#metaAcc dl  { border-left: 5px solid #aea9fd;  }
+#onPageBFG .aberto#robotsAcc dl{ border-left: 5px solid bisque;  }
+#onPageBFG .aberto#ressAcc dl  { border-left: 5px solid burlywood;  }
+#onPageBFG .aberto#contAcc dl  { border-left: 5px solid #ffc65b;  }
+
+/*
+#onPageBFG .aberto#metaAcc     { border-left: 5px solid #aea9fd; }
+#onPageBFG .aberto#robotsAcc   { border-left: 5px solid bisque; }
+#onPageBFG .aberto#ressAcc     { border-left: 5px solid burlywood; }
+#onPageBFG .aberto#contAcc     {border-left: 5px solid #ffc65b; }
+*/
+
+/* Hn */
+#hnUl    { padding: 0; }
+#hnUl li { padding: .3rem 0; line-height: 1.5rem;}
+#hnUl b  { margin-right: 0.3rem; padding: .2rem; }
+
+/* Botons
+------------*/
+#onPageBFG
+#expandHeaders,
+#onPageBFG
+#expandRobots { cursor: pointer; display: inline-block; background: #EF9564;
+                border-radius: 5px; padding: 0 .2rem; color: #222;
+                font-weight: bold; margin: 0 0 0 10px; }
+#onPageBFG
+#headersText,
+#onPageBFG
+#robotsText   { background: #f1f1f1; color: #333; padding: .3rem;
+                border:1px solid #666; }
+
+#onPageBFG
+#pechar      { font: 800 1rem "Lato bold", "Arial black", sans-serif;
+               cursor: pointer; color: #fff; text-align: right; display: block;
+               background: #111; border-radius: 50px; width: 2rem; text-align: center;
+               float: right; padding: .3rem 0; }
+
+#onPageBFG
+#exportLinks
+a            { display: block; margin: .5rem 0; background: #EF9564;
+               color: #fff; padding: .2rem; text-align: center; }
+
+#onPageBFG
+#exportLinks
+a            { background: coral;  }
+
+
+
+/* Injected styles
+--------------------*/
+
+q:before, q:after { content: ""; }
+
+h1 q, h2 q, h3 q, h4 q, h5 q, h6 q { position: relative ;}
+h1 q>i, h2 q>i, h3 q>i, h4 q>i, h5 q>i, h6 q>i
+{ position: absolute ; left: -35px; font: bold normal 1rem arial, sans-serif;
+    padding: 6px; border-radius: 50px;
+    box-shadow: 0px 0px 5px 1px #333; letter-spacing: 0; color: #000;}
+h1 q>i { background:red; color: #fff; }
+h2 q>i { background:orange; }
+h3 q>i { background:#729fcf; }
+h4 q>i { background:#bbb; }
+h5 q>i { background:#ddd; }
+h6 q>i { background:#eee; }
+
+a q.nofollow { display: inline-block; padding: .2rem .5rem .2rem .2rem; }
+
+a q.nofollow i { background: red; color: white; font-size: .8rem; padding: .6rem;
+    border-radius: 50px; box-shadow: 0 0 5px 1px #333; text-decoration: none;
+     display: inline-block; }
+
+/*a[rel="nofollow"] {background: yellow; color:#000; border-radius: 20px ; }*/
+
+/* alt pegado à imaxe */
+.extraAlt {padding:10px; color: #fff; background: #729fcf ; border-radius: 20px; font-size:.9rem; display: inline-block;box-shadow: 0 0 5px 1px #333;}
+

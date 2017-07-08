@@ -1,0 +1,222 @@
+{
+    "Description":
+    {
+        "message": "Collection of utilities that aims to simplify usual SEO tasks, like seeing metadata, highligthing semantic markup or exraction links."
+    },
+
+    "lang" : { "message": "en"},
+
+   "menuOnPageTitle" :
+   {
+      "message": "On Page"
+   },
+   "menuOnPageMsg1" :
+   {
+      "message": "Meta, robots, links, speed, & more"
+   },
+   "menuLinkTitle" :
+   {
+      "message": "Link Export"
+   },
+   "menuLinkMsg1" :
+   {
+      "message": "HTML links to .csv in any page"
+   },
+   "menuSerpTitle" :
+   {
+      "message": "Serp Export"
+   },
+   "menuSerpMsg1" :
+   {
+      "message": "Best with 100 results/page"
+   },
+   "menuSerpMsg2" :
+   {
+      "message": "(Try with 100 results/page)"
+   },
+
+
+   "menuSerpVisuTitle" :
+   {
+      "message": "Serp Visualization"
+   },
+   "menuSerpVisuMsg1" :
+   {
+      "message": "Visualize structure of Google's Serp pages of a site"
+   },
+
+
+   "menuBulkStatusTitle" :
+   {
+      "message": "Status Codes Bulk Checker"
+   },
+   "menuBulkStatusMsg1" :
+   {
+      "message": "Check the status code of a list of pages"
+   },
+
+
+   "menuCrawlTitle" :   { "message" : "Crawler" },
+   "menuCrawlMsg1" :    { "message" : "Lightweigth explorer" },
+   "crawl" :            { "message" : "Crawl" },
+   "pause" :            { "message" : "Pause" },
+   "continue" :         { "message" : "Continue" },
+   "refresh" :          { "message" : "Refresh" },
+   "copy" :             { "message" : "Copy" },
+   "urlBase" :          { "message" : "Set the starting URL" },
+   "filter" :           { "message" : "Filter (3XX, /folder/,...)" },
+   "done" :             { "message" : "URLs of" },
+   "urlsOf" :           { "message" : "URLs of" }, 
+   "type" :             { "message" : "Type" },
+   "from" :             { "message" : "From" },
+   "anchor" :           { "message" : "Anchor" },
+   "to" :               { "message" : "To" },
+
+
+
+   "menuSitemapTitle" : { "message" : "Sitemap Generator" },
+   "menuSitemapMsg1" :  { "message" : "Generates sitemap.xml from a list" },
+   "sitemapLabel" :     { "message" : "Enter your URL list here ..." },
+   "sitemapTextArea" :  { "message" : "URL list here ..." },
+   "sitemapSend" :      { "message" : "Generate" },
+   "check404Label" : {"message" : "Exclude pages with 404 status code (takes longer)"},
+
+
+
+   "menuListTitle" : { "message" : "List Tools" },
+   "menuListMsg1" :  { "message" : "Compare, dedup, combine, ..." },
+   "listPageTitle":  { "message" : "List tools"},
+   "listIntro":      { "message" : "Compare two lists (e.g : URLs) to find what has changed, what was removed, what is unique, ..., sort, trim, remove duplicates, ..."},
+   "listTALabel" :   { "message" : "Enter your text"},
+   "blank" :         { "message" : "Remove blank lines"},
+   "dedup" :         { "message" : "Deduplicate"},
+   "random" :        { "message" : "Randomize"},
+   "trim" :          { "message" : "Trim"},
+   "lower" :         { "message" : "Lower case"},
+   "upper" :         { "message" : "Upper case"},
+   "upperF" :        { "message" : "Upper case first"},
+   "helpTextFunc" :  { "message" : "This last set of functions are applied only to the selected textarea"},
+   "resultList" :          { "message" : "Results list"},
+
+   "menuWhoisTitle" :{ "message" : "Whois"},
+   "menuWhoisMsg1" : { "message" : "Opens whois info"},
+
+   "characters" :
+   {
+      "message": " characters"
+   },
+   "items" :
+   {
+      "message": " items"
+   },
+   "text" :
+   {
+      "message": "text"
+   },
+   "total":
+    {
+        "message": "total"
+    },
+
+   "errors":
+    {
+        "message": "Errors"
+    },
+
+   "errorsList":
+    {
+        "message": "Errors list"
+    },
+
+   "progress":
+    {
+        "message": "Progress"
+    },
+
+
+   "onPageTitle":
+    {
+        "message": "On Page"
+    },
+   "contentTitle":
+    {
+        "message": "Content"
+    },
+   "assetsTitle":
+    {
+        "message": "Assets, Speed & Links"
+    },
+
+
+
+   "assets":
+    {
+        "message": "assets"
+    },
+   "images":
+    {
+        "message": "Images"
+    },
+   "speed":
+    {
+        "message": "speed"
+    },
+   "links":
+    {
+        "message": "links"
+    },
+   "compression":
+    {
+        "message": "compression"
+    },
+   "totalLinks":
+    {
+        "message": "Total links"
+    },
+   "internal":
+    {
+        "message": "Internal"
+    },
+   "external":
+    {
+        "message": "External"
+    },
+   "nofollow":
+    {
+        "message": "Nofollow"
+    },
+   "internalNoFollow":
+    {
+        "message": "Internal NoFollow"
+    },
+   "externalNoFollow":
+    {
+        "message": "External NoFollow"
+    },
+
+
+   "foundArticle":
+    {
+        "message": "Found &lt;article&gt; with "
+    },
+   "lines":
+    {
+        "message": " lines"
+    },
+   "words":
+    {
+        "message": " words"
+    },
+   "chars":
+    {
+        "message": " chars"
+    },
+    "textCode":
+    {
+        "message": "text/code ratio"
+    },
+    "download":
+    {
+        "message": "Download"
+    }
+}

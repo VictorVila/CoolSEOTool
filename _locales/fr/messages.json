@@ -1,0 +1,221 @@
+{
+    "Description":
+    {
+        "message": "Gagne du temps, exporte en 2 clics liens, SERPs et onPage data"
+    },
+
+    "lang" : { "message": "fr"},
+
+   "menuOnPageTitle" :
+   {
+      "message": "On Page"
+   },
+   "menuOnPageMsg1" :
+   {
+      "message": "Métas, robots, liens, vitesse & +"
+   },
+   "menuLinkTitle" :
+   {
+      "message": "Exporter liens"
+   },
+   "menuLinkMsg1" :
+   {
+      "message": "Crée un .csv avec les liens"
+   },
+   "menuSerpTitle" :
+   {
+      "message": "Exporter Serp "
+   },
+   "menuSerpMsg1" :
+   {
+      "message": "Mieux avec SERPs à 100 resultats"
+   },
+   "menuSerpMsg2" :
+   {
+      "message": "(Essaie avec des SERPs à 100 resultats)"
+   },
+
+
+   "menuSerpVisuTitle" :
+   {
+      "message": "Visualization de la Serp "
+   },
+   "menuSerpVisuMsg1" :
+   {
+      "message": "Affiche la structure des pages de la Serp"
+   },
+
+
+   "menuBulkStatusTitle" :
+   {
+      "message": "Vérification de Status Codes "
+   },
+   "menuBulkStatusMsg1" :
+   {
+      "message": "Verifie les status codes d'une liste d'URLs"
+   },
+
+
+   "menuCrawlTitle" : { "message" : "Crawler" },
+   "menuCrawlMsg1" :  { "message" : "Explorateur léger" },
+   "crawl" :            { "message" : "Crawl" },
+   "pause" :            { "message" : "Pause" },
+   "continue" :         { "message" : "Continuer" },
+   "refresh" :          { "message" : "Vider" },
+   "copy" :             { "message" : "Copier" },
+   "urlBase" :          { "message" : "Tapez l'URL de départ" },
+   "filter" :           { "message" : "Filtrer (3XX, /folder/,...)" },
+   "done" :             { "message" : "URLs de" },
+   "urlsOf" :           { "message" : "URLs sur" }, 
+   "type" :             { "message" : "Type" },
+   "from" :             { "message" : "URL origine" },
+   "anchor" :             { "message" : "Ancre" },
+   "to" :             { "message" : "URL destination" },
+
+
+   "menuSitemapTitle" : { "message" : "Generateur de Sitemap" },
+   "menuSitemapMsg1" :  { "message" : "Sitemap.xml a partir d'une liste" },
+   "sitemapLabel" :     { "message" : "Collez votre liste d'URLs ici ... " },
+   "sitemapTextArea" :  { "message" : "la liste ..." },
+   "sitemapSend" :      { "message" : "Générer" },
+   "check404Label" : {"message" : "Ne pas inclure les pages en erreur (long)"},
+
+
+
+   "menuListTitle" : { "message" : "Utilités pour listes" },
+   "menuListMsg1" :  { "message" : "Comparer, dédoublonner, combiner, ..." },
+   "listPageTitle":  { "message" : "Utilités pour listes"},
+   "listIntro":      { "message" : "Utilités pour comparer deux listes (p.e. : URLs) et découvrir ce qui a changé, ce qui manque, ce qui est unique. Nettoie, ordonne, dédoublonne chaque liste."},
+   "listTALabel" :   { "message" : "Collez votre texte"},
+   "blank" :         { "message" : "Supprimer lignes vides"},
+   "dedup" :         { "message" : "Déduplicate"},
+   "trim" :          { "message" : "Suprimme espaces dedut/fin"},
+   "lower" :         { "message" : "Minuscules"},
+   "upper" :         { "message" : "Majuscules"},
+   "upperF" :        { "message" : "Upper case first"},
+   "helpTextFunc" :  { "message" : "Ces dernières fonctions s'appliquent seulement à la liste sélectionnée"},
+   "resultList" :   { "message" : "Résultats"},
+
+   "menuWhoisTitle" :{ "message" : "Whois"},
+   "menuWhoisMsg1" : { "message" : "Ouvre le registre whois"},
+
+   "characters" :
+   {
+      "message": " caractères"
+   },
+   "items" :
+   {
+      "message": " elements"
+   },
+   "text" :
+   {
+      "message": "texte"
+   },
+   "total":
+    {
+        "message": "total"
+    },
+
+
+   "onPageTitle":
+    {
+        "message": "On Page"
+    },
+   "contentTitle":
+    {
+        "message": "Contenu"
+    },
+   "assetsTitle":
+    {
+        "message": "Ressources, Vitesse & Liens"
+    },
+
+
+
+   "assets":
+    {
+        "message": "Ressources"
+    },
+   "images":
+    {
+        "message": "Images"
+    },
+   "speed":
+    {
+        "message": "Vitesse"
+    },
+   "links":
+    {
+        "message": "Liens"
+    },
+   "compression":
+    {
+        "message": "compression"
+    },
+   "totalLinks":
+    {
+        "message": "Total liens"
+    },
+   "internal":
+    {
+        "message": "Internes"
+    },
+   "external":
+    {
+        "message": "Externes"
+    },
+   "nofollow":
+    {
+        "message": "Nofollow"
+    },
+   "internalNoFollow":
+    {
+        "message": "Internes NoFollow"
+    },
+   "externalNoFollow":
+    {
+        "message": "Externes NoFollow"
+    },
+
+
+   "foundArticle":
+    {
+        "message": "Il y a un &lt;article&gt; avec "
+    },
+   "lines":
+    {
+        "message": " lignes"
+    },
+   "words":
+    {
+        "message": " mots"
+    },
+   "chars":
+    {
+        "message": " charactères"
+    },
+    "textCode":
+    {
+        "message": "texte/code"
+    },
+    "download":
+    {
+        "message": "Télécharger CSV"
+    },
+
+
+   "errors":
+    {
+        "message": "Erreurs"
+    },
+
+   "errorsList":
+    {
+        "message": "Liste d'erreurs"
+    },
+
+   "progress":
+    {
+        "message": "Avancement"
+    }
+}

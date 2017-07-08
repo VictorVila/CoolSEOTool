@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Sitemap | Cool Seo Tool</title>
+    <link rel='stylesheet' href='../style.css'>         
+    <link rel='stylesheet' href='../font-awesome-4.7.0/css/font-awesome.min.css'>
+</head>
+<body>
+    <main id='sitemap'>
+        <i id="logo" class="fa fa-sitemap" aria-hidden="true"></i>
+        <h1 id='sitemapTitle'>Sitemap</h1>
+        <p>
+            <b id="options">Options</b> :
+            <label for='changefreq'>Changefreq</label>
+            <select name='changefreq' id='changefreq'>
+                <option value='always'>always</option>
+                <option value='hourly'>hourly</option>
+                <option value='daily'>daily</option>
+                <option value='weekly' selected>weekly</option>
+                <option value='monthly'>monthly</option>
+                <option value='yearly'>yearly</option>
+                <option value='never'>never</option>
+            </select>
+            <label for='priority'>Priority</label>
+            <select name='priority' id='priority'>
+                <option value='0.0'>0.0</option>
+                <option value='0.1'>0.1</option>
+                <option value='0.2'>0.2</option>
+                <option value='0.3'>0.3</option>
+                <option value='0.4'>0.4</option>
+                <option value='0.5' selected>0.5</option>
+                <option value='0.6'>0.6</option>
+                <option value='0.7'>0.7</option>
+                <option value='0.9'>0.9</option>
+                <option value='1.0'>1.0</option>
+            </select>  
+            <label for="check404" id="check404Label">Exclude with 404 status code (longer)</label>
+            <input type="checkbox" name="check404Input" id="check404Input">
+        </p>
+        <p>
+            <label id='urlListLabel' for='urlList'>URL List</label>
+            <textarea id='urlListTextArea'></textarea>
+        </p>
+        <p id="output">
+            <span id="outputURls">
+                URLs : <b id="totalURLs">0</b> <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </span>
+            <span id="outputErrors">
+                Errors : <b id="totalErrors">0</b> <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            </span>
+            <span id="outputProgress">
+                Progress : <b id="progress">0</b><i class="fa fa-percent" aria-hidden="true"></i>
+            </span>
+        </p>
+        <p><button id='urlListSend'><i class="fa fa-gear" aria-hidden="true"></i> Generate</button></p>
+        <div id="errors" class="dNone">
+            <ul id='errorsList'></ul>
+        </div>
+        <p id="sitemapInfo"><a href='https://support.google.com/webmasters/answer/183668?hl=en'>Search Console Sitemap Help</a> <i class="fa fa-external-link" aria-hidden="true"></i></p>
+    </main> 
+    <script type='text/javascript' src='sitemap.js'></script>
+</body>
+</html>

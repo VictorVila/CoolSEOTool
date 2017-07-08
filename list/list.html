@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>List Tools | Cool Seo Tool</title>
+    <link rel='stylesheet' href='../style.css'>
+    <link rel='stylesheet' href='../font-awesome-4.7.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald:400" rel="stylesheet">
+</head>
+<body>
+    <main id='list'>
+        <header>
+            <i id="logo" class="fa fa-list-ul" aria-hidden="true"></i>
+            <h1 id='listPageTitle'>List tools</h1>
+        </header>
+       <p id='listIntro'>Compare two lists (e.g : URLs) to find what has changed, what was removed, what is unique, ..., sort, trim, remove duplicates, ...</p>
+
+        <ul id="conxuntos" class="functions groups">
+            <li id="union">A + B</li> 
+            <li id="intersection">A & B</li>
+            <li id="difference">A - B</li>
+        </ul>
+
+        <div id="tresTercios" class="clearfix">
+            <div class="fleft" id="tercioUn">
+                <label for="listA">List A <b id="listACount"></b></label>
+                <textarea id="listA"></textarea>
+            </div>
+            <div class="fleft" id="tercioDous">
+                <label for="listB">List B <b id="listBCount"></b></label>
+                <textarea id="listB"></textarea>
+            </div>
+            <div class="fright" id="tercioTres">
+                <label for="listOut"><span id="resultList">Result</span> <b id="listOutCount"></b></label>
+                <textarea id="listOut"></textarea>
+            </div>
+        </div>
+
+        <ul class="functions">
+            <li id="az">A <i class="yellow fa fa-long-arrow-right" aria-hidden="true"></i> Z</li>
+            <li id="za">Z <i class="yellow fa fa-long-arrow-right" aria-hidden="true"></i> A</li>
+            <li id="blank" title='Remove blank lines'><i class="white fa fa-eraser" aria-hidden="true"></i> Remove blank lines</li>
+            <li id="dedup"><i class="white fa fa-cubes" aria-hidden="true"></i>Deduplicate</li>
+            <li id="random"><i class="white fa fa-random" aria-hidden="true"></i> Randomize</li>
+            <li id="trim"><i class="white fa fa-window-minimize" aria-hidden="true"></i>Trim<i class="white fa fa-window-minimize" aria-hidden="true"></i></li>
+            <li id="lower"><i class='bold'>a</i> Lowercase</li> 
+            <li id="upper"><i class='bold'>A</i> Uppercase</li> 
+        </ul>
+        <p id="helpTextFunc" class='center'>This last set of functions are applied <b>only</b> to the selected textarea </p>
+    </main>
+    <script type='text/javascript' src='../js/underscore-min.js'></script>
+    <script type='text/javascript' src='list.js'></script>
+</body>
+</html>
