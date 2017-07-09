@@ -2,7 +2,7 @@
 |   menu.js
 |   ---------------------------------------
 |   @author: Victor Vila Sendon
-|   twitter@tirop.com
+|   victor@tirop.com
 |   2016-11-11
 |   Controls menu events
 |
@@ -66,9 +66,6 @@ window.addEventListener('load', function(evt)
 
         document.getElementById('dns')
         .addEventListener('click', dns);
-
-		document.getElementById('https')
-        .addEventListener('click', https);
 });
 
 var onPage = function ()
@@ -155,21 +152,6 @@ var dns = function ()
       var u  = new URL( url );
       var host = u.host.replace('www.', '');
       url    = "https://intodns.com/" + host;
-     chrome.tabs.create({ url: url });
-   }
-   chrome.tabs.query(query, callback);
-};
-
-var https = function ()
-{
-   var url = null;
-   var query = { active: true, currentWindow: true };
-   function callback ( tabs )
-   {
-      url    = tabs[0].url;
-      var u  = new URL( url );
-      var host = u.host.replace('www.', '');
-      url    = "https://ssllabs.com/ssltest/analyze.html?d=" + host;
      chrome.tabs.create({ url: url });
    }
    chrome.tabs.query(query, callback);
