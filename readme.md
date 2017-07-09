@@ -2,9 +2,12 @@ Cool SEO Tool
 =============
 
 Version française : http://www.tirop.com/coolseotool.html
+
 Chrome web store : https://chrome.google.com/webstore/detail/cool-seo-tool-0021/hmkadofohchmamohhmfapoaibngnmoki
 
 This is a Chrome extension that gives you some simple yet useful SEO utilities.
+
+![CoolSEOTool Chrome Extension menu](http://www.tirop.com/img/coolseotool.png)
 
 Main features :
 ---------------
