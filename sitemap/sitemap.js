@@ -2,14 +2,10 @@
 |   SitemapGenerator
 |   ---------------------------------------
 |   @author: Victor Vila Sendon
-|   victor@tirop.com
+|   twitter@tirop.com
 |   2017-01-16
 |   Generates a sitemap.xml from a list of URls
-|
-http://tirop.com
-http://www.adifco.fr
-    http://www.adifco.fr/v.html
-    https://www.seo.fr/abc
+| 
 */
 
 

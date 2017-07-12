@@ -1,7 +1,7 @@
 /*  ---------------------------------------
 |   BFG-10000
 |   ---------------------------------------
-|   For the young ones, Big Fucking Gun 10K
+|   For the younger ones, Big Fucking Gun 10K
 |   was the biggest gun in the original Doom
 |
 */

@@ -2,7 +2,7 @@
 |   linksExports
 |   ---------------------------------------
 |   @author: Victor Vila Sendon 
-|   victor@tirop.com
+|   twitter@tirop.com
 |   2016-11-11
 |   Injected in a webpage, this script creates and
 |   download a csv file containing info about

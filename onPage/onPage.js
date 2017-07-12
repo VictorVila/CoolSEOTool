@@ -2,7 +2,7 @@
 |   onPage
 |   ---------------------------------------
 |   @author: Victor Vila Sendon
-|   victor@tirop.com
+|   twitter@tirop.com
 |   2016-11-11
 |   Injected in a webpage, this script extracts
 |   useful on page data related to SEO

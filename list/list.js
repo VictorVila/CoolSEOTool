@@ -2,7 +2,7 @@
 |   Text & Lists tools
 |   ---------------------------------------
 |   @author: Victor Vila Sendon
-|   victor@tirop.com
+|   twitter@tirop.com
 |   2017-01-29
 |   Generic functions to work with lists
 | 
